@@ -11,8 +11,6 @@ d_model = 4, h = 2, d_k = 2
             X_cross   = X_masked + Y_cross
             X_out_dec = X_cross  + Y_ffn
 LayerNorm в этой схеме НЕ применяется.
-
-Без numpy — работает на любом Python 3.
 """
 
 import math
