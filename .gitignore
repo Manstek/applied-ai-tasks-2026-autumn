@@ -1,0 +1,15 @@
+# модели, сохранённые Trainer'ом (по ~250 МБ)
+out/
+out_title/
+
+# служебное Python и Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# окружение
+venv/
+.venv/
+
+.DS_Store
+.idea/
